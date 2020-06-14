@@ -96,7 +96,7 @@ def auto_generated_pipeline({%- for arg in parameters_names -%}
     marshal_vop = dsl.VolumeOp(
         name="kale-marshal-volume",
         resource_name="kale-marshal-pvc",
-        modes=dsl.VOLUME_MODE_RWM,
+        modes=dsl.VOLUME_MODE_RWO,
         size="1Gi"
     )
     volume_step_names.append(marshal_vop.name)
