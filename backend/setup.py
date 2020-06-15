@@ -46,7 +46,7 @@ setup(
         'jupyter-core >= 4.6.0',
         'nbconvert >= 5.6.1, < 6.0.0',
         'ipykernel >= 5.1.4',
-        'kfp-server-api == 0.3.0',
+        'kfp-server-api >= 0.1.18, <0.1.40',
         'packaging > 20',
         'ml_metadata > 0.21, < 0.22',
     ],
